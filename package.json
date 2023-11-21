@@ -11,8 +11,8 @@
   "dependencies": {
     "boring-webcrypto-sha256": "^1.0.0",
     "crypto-js": "^4.2.0",
+    "logging": "^3.3.0",
     "prompt-sync": "^4.2.0",
     "sha256": "^0.2.0"
-  },
-  "type": "module"
+  }
 }
