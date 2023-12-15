@@ -10,6 +10,6 @@ const r1 = readline.createInterface({
 });
 
 r1.question('enter your password: ', (ans) => {
-    console.log("The password SHA256 is: " + sha256(ans));
+    console.log("The password SHA256 is: -> " + sha256(ans));
     r1.close();
 });
